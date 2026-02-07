@@ -1,11 +1,5 @@
 # LogAnalyzer 
 
-[Changelog](CHANGELOG.md) | 
-[Issues](https://github.com/pbek/loganalyzer/issues) | 
-[Installation](INSTALLATION.md)
-
-[![Build Status Linux / OS X](https://travis-ci.org/pbek/loganalyzer.svg?branch=develop)](https://travis-ci.org/pbek/loganalyzer)
-[![Build Status Windows](https://ci.appveyor.com/api/projects/status/github/pbek/LogAnalyzer)](https://ci.appveyor.com/project/pbek/loganalyzer)
 
 **LogAnalyzer** is a tool that helps you to manually analyze your log files by
 reducing the content with regular expression patterns you define.
@@ -19,9 +13,6 @@ generate a report.
 There is an extension for the content management system *eZ Publish (legacy)* to
 download log files directly from the server.
 
-## Screenshot
-
-![Screenhot](screenshots/screenshot.png)
 
 ## Features
 
