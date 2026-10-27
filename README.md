@@ -1,50 +1,3 @@
-# LogAnalyzer 
-
-
-**LogAnalyzer** is a tool that helps you to manually analyze your log files by
-reducing the content with regular expression patterns you define.
-
-You are supposed to write regular expressions (*Ignore patterns*) for the parts
-that should be removed from the text view until only the interesting parts are left.
-
-And then there are regular expressions (*Report patterns*) that are used to
-generate a report.
-
-There is an extension for the content management system *eZ Publish (legacy)* to
-download log files directly from the server.
-
-
-## Features
-
-- adding log files via drag and drop
-- finding text in the log file with <kbd>Ctrl</kbd> + <kbd>F</kbd>
-    - navigate with <kbd>F3</kbd> and <kbd>⇧</kbd> + <kbd>F3</kbd>
-- adding of ignore patterns from selected text
-    - use the shortcut <kbd>Ctrl</kbd> + <kbd>I</kbd>
-    - use regular expressions as patterns
-- adding of report patterns from selected text
-    - use the shortcut <kbd>Ctrl</kbd> + <kbd>E</kbd>
-    - use regular expressions as patterns
-- searching for matching text of ignore patterns if you select them
-- removing all matches of ignore patterns from the text
-    - empty lines will be removed by default
-- exporting and importing of ignore and report patterns
-- moving of patterns via drag and drop
-- reloading of current file with <kbd>Ctrl</kbd> + <kbd>R</kbd>
-- filtering of patterns 
-- generation of reports from the report patterns
-- exporting of the report as PDF
-- printing of the report
-
-
-
-## Minimum software requirements
-- A desktop operating system, that supports [Qt5](https://doc.qt.io/qt-5/)
-- Qt 5.3+
-- gcc 4.8+
-
-
-
 # Bytebeam Fleet Management Dashboard
 
 ## Project Overview
@@ -57,9 +10,26 @@ The project uses sample fleet data to demonstrate the core workflows of a fleet 
 
 ## Live Demo
 
-Application URL: To be added after deployment.
+Application URL: https://bytebeam-fleet-dashboard-one.vercel.app
 
-Demo credentials: To be provided if required.
+Demo credentials: 
+You can access the application using either of the following methods:
+
+Option 1: Create your own account
+
+Sign up using your email address through the application's sign-up page.
+
+If email confirmation is enabled, confirm your email using the link sent to your inbox.
+
+Sign in to access the fleet dashboard.
+
+Option 2: Use the demo account
+
+Email: demo@bytebeam.test
+
+Password: demo123
+
+The demo account is provided for evaluation purposes and can be used to explore the dashboard without creating a separate account.
 
 ## Features
 
@@ -172,6 +142,3 @@ The application uses sample fleet data and illustrative GPS coordinates. Live GP
 ## Walkthrough
 
 To be added if a walkthrough is recorded.
-
-
-
