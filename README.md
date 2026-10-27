@@ -141,4 +141,6 @@ The application uses sample fleet data and illustrative GPS coordinates. Live GP
 
 ## Walkthrough
 
-To be added if a walkthrough is recorded.
+ Watch the Fleet Management Dashboard Demo
+
+https://drive.google.com/file/d/1i2GyeAKzV7rX-KoPffaVx93dvDD1xyOb/view?usp=sharing
